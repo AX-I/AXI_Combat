@@ -28,5 +28,8 @@ python -m pip install pyopencl numpy numexpr pillow pyautogui opencv-python pyau
 ### Ubuntu Linux
 ```
 sudo apt install pip3.6
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> 224a992fabf5e99e88ff63bf3833958c91aeadda
 (...)
