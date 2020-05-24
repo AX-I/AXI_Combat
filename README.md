@@ -3,6 +3,8 @@ AXI Combat is a networked multiplayer game built on the AXI Visualizer 3D engine
 
 http://axi.x10.mx/Combat
 
+![Combat Teaser](https://agentxindustries.neocities.org/Combat/DOF_Screenshot%202020%20May%2014%2006-29-01.png)
+
 AXI Combat is released under the GNU General Public License v3 or above.
 
 ## Building from source
