@@ -26,7 +26,22 @@ python -m pip install pyopencl numpy numexpr pillow pyautogui opencv-python pyau
 ```
 
 ### Ubuntu Linux
+After installing Ubuntu 18.04.1 LTS:
 ```
-sudo apt install pip3.6
+sudo apt update
+sudo apt install python3-pip tk8.6-dev python3-tk python3-pil.imagetk
+pip3 install numpy numexpr
+pip3 install pyopencl xlib opencv-python
+sudo apt install libasound-dev portaudio19-dev
+pip3 install pyaudio
 ```
-(...)
+Drivers might be troublesome
+```
+sudo add-apt-repository ppa:intel-opencl/intel-opencl
+sudo apt update
+sudo apt install intel-opencl-icd
+
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt install nvidia-opencl-icd-384
+```
+
