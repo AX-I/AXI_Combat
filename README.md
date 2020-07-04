@@ -12,7 +12,7 @@ AXI Combat is released under the GNU General Public License v3 or above.
 ### Windows
 Download Python >= 3.6
 ```
-python -m pip install numpy numexpr pillow pyautogui opencv-python pyaudio
+python -m pip install numpy numexpr pillow pyautogui opencv-python pyaudio requests pywin32
 ```
 Download PyOpenCL from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopencl
 ```
