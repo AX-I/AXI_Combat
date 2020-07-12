@@ -1,0 +1,19 @@
+# MTL file exported from AXI Creator
+newmtl Mat0
+map_Kd as12brn1.tif
+newmtl Mat1
+map_Kd as12lef1.png
+map_d as12lef1.png
+newmtl Mat2
+map_Kd Lights.png
+newmtl Mat3
+map_Kd plant_01.png
+map_d plantAlpha.png
+newmtl Mat4
+map_Kd AtlasW.png
+newmtl Mat5
+map_Kd AtlasM.png
+newmtl Mat6
+map_Kd AtlasE.png
+newmtl Mat7
+map_Kd AtlasG.png
