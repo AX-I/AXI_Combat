@@ -7,6 +7,9 @@ http://axi.x10.mx/Combat
 
 AXI Combat is released under the GNU General Public License v3 or above.
 
+## Releases
+Binaries for Windows, Mac OSX, and Ubuntu Linux are available via the main page http://axi.x10.mx/Combat
+
 ## Building from source
 
 ### Windows
