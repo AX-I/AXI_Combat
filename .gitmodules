@@ -1,0 +1,3 @@
+[submodule "CombatG"]
+	path = CombatG
+	url = https://github.com/AX-I/Combat_Core
