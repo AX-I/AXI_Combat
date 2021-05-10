@@ -1,16 +1,18 @@
 # AXI_Combat
 AXI Combat is a networked multiplayer game built on the AXI Visualizer 3D engine.
 
-http://axi.x10.mx/Combat
+https://axi.x10.mx/Combat
 
 ![Combat Teaser](https://agentxindustries.neocities.org/Combat/DOF_Screenshot%202020%20May%2014%2006-29-01.png)
 
 AXI Combat is released under the GNU General Public License v3 or above.
 
 ## Releases
-Binaries for Windows, Mac OSX, and Ubuntu Linux are available via the main page http://axi.x10.mx/Combat
+Binaries for Windows, Mac OSX, and Ubuntu Linux are available via the main page https://axi.x10.mx/Combat
 
 ## Building from source
+
+You'll need to run `git clone --recursive` to include the core source code submodule (https://github.com/AX-I/Combat_Core).
 
 ### Windows
 Download Python >= 3.6
