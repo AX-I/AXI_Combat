@@ -1,0 +1,5 @@
+# Blender MTL File: 'TempleTrans.blend'
+# Material Count: 1
+
+newmtl Cloud
+map_Kd Cloud1a.png
