@@ -17,7 +17,7 @@ You'll need to run `git clone --recursive` to include the core source code submo
 ### Windows
 Download Python >= 3.6
 ```
-python -m pip install numpy numexpr pillow pyautogui opencv-python pyaudio requests pywin32
+python -m pip install numpy numexpr pillow pyautogui opencv-python pyaudio requests pywin32 moderngl
 ```
 Download PyOpenCL from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopencl
 ```
@@ -27,7 +27,7 @@ python -m pip install pyopencl-win_amd64.whl
 ### Mac OSX
 Download Python >= 3.6
 ```
-python -m pip install pyopencl numpy numexpr pillow pyautogui opencv-python pyaudio tkmacosx
+python -m pip install pyopencl moderngl numpy numexpr pillow pyautogui opencv-python pyaudio tkmacosx
 ```
 
 ### Ubuntu Linux
@@ -36,7 +36,7 @@ After installing Ubuntu 18.04.1 LTS:
 sudo apt update
 sudo apt install python3-pip tk8.6-dev python3-tk python3-pil.imagetk
 pip3 install numpy numexpr
-pip3 install pyopencl xlib opencv-python
+pip3 install pyopencl xlib opencv-python moderngl
 sudo apt install libasound-dev portaudio19-dev
 pip3 install pyaudio
 ```
