@@ -1,9 +1,7 @@
 # AXI_Combat
 AXI Combat is a networked multiplayer game built on the AXI Visualizer 3D engine.
 
-https://axi.x10.mx/Combat
-
-![Combat Teaser](https://agentxindustries.neocities.org/Combat/DOF_Screenshot%202020%20May%2014%2006-29-01.png)
+![Combat Teaser](https://agentxindustries.neocities.org/Combat/AXICombat.jpg)
 
 AXI Combat is released under the GNU General Public License v3 or above.
 
@@ -14,32 +12,22 @@ Binaries for Windows, Mac OSX, and Ubuntu Linux are available via the main page 
 
 You'll need to run `git clone --recursive` to include the core source code submodule (https://github.com/AX-I/Combat_Core).
 
-### Windows
-Download Python >= 3.6
+### Windows, Mac OSX
+Download Python >= 3.8
 ```
-python -m pip install numpy numexpr pillow pyautogui opencv-python pyaudio requests pywin32 moderngl
-```
-Download PyOpenCL from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopencl
-```
-python -m pip install pyopencl-win_amd64.whl
-```
-
-### Mac OSX
-Download Python >= 3.6
-```
-python -m pip install pyopencl moderngl numpy numexpr pillow pyautogui opencv-python pyaudio tkmacosx
+python -m pip install -r requirements.txt
 ```
 
 ### Ubuntu Linux
-After installing Ubuntu 18.04.1 LTS:
+After clean installation:
 ```
 sudo apt update
 sudo apt install python3-pip tk8.6-dev python3-tk python3-pil.imagetk
-pip3 install numpy numexpr
-pip3 install pyopencl xlib opencv-python moderngl
 sudo apt install libasound-dev portaudio19-dev
-pip3 install pyaudio
+pip3 install xlib
+pip3 install -r requirements.txt
 ```
+
 Drivers might be troublesome
 ```
 sudo add-apt-repository ppa:intel-opencl/intel-opencl
