@@ -1,3 +1,4 @@
-[submodule "CombatG"]
-	path = CombatG
-	url = https://github.com/AX-I/Combat_Core
+[submodule "Combat_Core"]
+	path = Combat_Core
+	url = https://github.com/AX-I/Combat_Core.git
+	branch = master
